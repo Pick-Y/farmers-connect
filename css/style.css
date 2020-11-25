@@ -1,0 +1,73 @@
+body {
+  background: #fffdd0;
+}
+
+.center-map {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: none;
+  padding: 10px;
+}
+
+#AU-NT {
+  fill: #f5b461;
+}
+
+#AU-WA {
+  fill: #ec524b;
+}
+
+#AU-ACT {
+  fill: #8f384d;
+}
+
+#AU-NSW {
+  fill: #9ad3bc;
+}
+
+#AU-SA {
+  fill: #af6b58;
+}
+
+#AU-VIC {
+  fill: #556052;
+}
+
+#AU-QLD {
+  fill: #f3eac2;
+}
+
+#AU-TAS {
+  fill: #34626c;
+}
+
+nav {
+  background: none;
+  height: 50px;
+  width: auto;
+}
+
+nav div {
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+nav div button {
+  color: white;
+  background: #34626c;
+  border-style: none;
+  height: 30px;
+  width: 70px;
+  border-radius: 12px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+/*# sourceMappingURL=style.css.map */

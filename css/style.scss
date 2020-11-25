@@ -1,0 +1,74 @@
+$back: #fffdd0;
+$state-color: (
+    "nt":#f5b461, "wa":#ec524b,"act":#8f384d,"nsw":#9ad3bc,"sa":#af6b58,
+    "vic":#556052,"qld":#f3eac2,"tas":#34626c
+);
+
+body {
+    background: $back;
+}
+
+//it sets the map to the center of the screen
+.center-map {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    padding: 10px;
+}
+
+//assign color to states
+#AU-NT{
+    fill:map-get($state-color, nt )
+}
+#AU-WA{
+    fill:map-get($state-color, wa )
+}
+#AU-ACT{
+    fill:map-get($state-color, act )
+}
+#AU-NSW{
+    fill:map-get($state-color, nsw )
+}
+#AU-SA{
+    fill:map-get($state-color, sa )
+}
+#AU-VIC{
+    fill:map-get($state-color, vic )
+}
+#AU-QLD{
+    fill:map-get($state-color, qld )
+}
+#AU-TAS{
+    fill:map-get($state-color, tas )
+}
+
+nav {
+    background:none;
+    height: 50px; 
+    width: auto;
+    div {
+        margin-top: 10px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+       
+            button {
+                color: white;
+                background:map-get($state-color, tas);
+                border-style: none;
+                height:30px;
+                width: 70px;
+                border-radius: 12px;
+                margin-top: auto;
+                margin-bottom: auto;
+                margin-left: 15px;
+                margin-right: 5px; 
+            }
+    }
+
+}
+       
+
