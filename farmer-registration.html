@@ -1,0 +1,107 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css-forms/farmer-reg.css">
+    <title>Account registration form</title>
+    
+ </head>
+ <body>
+  <div class="center" >
+    <div class="inner">
+      <form id="form" class="center" action="/" method="GET" class='validate'>
+        <h3>Registration Form</h3>
+        
+        <div class="form-group">
+          <div class="form-wrapper">
+            <span id="company-name-error"></span>
+            <label for="company_name">Company Name</label>
+            <input id="company_name" type="text" class="form-control" >
+          </div>
+
+          <div class="form-wrapper">
+            <label for="trading">Trading as</label>
+            <input id='trading' type="text" class="form-control">
+          </div>
+        </div>
+
+        
+        <div class="form-wrapper">
+          <label for="city">City</label>
+          <input id="city" type="text" class="form-control">
+        </div>
+
+        <div class="form-wrapper">
+          <label for="street">Street</label>
+          <input id="street" type="text" class="form-control">
+        </div>  
+
+        
+
+        <div class="form-wrapper">
+          <label for="suburb">Suburb</label>
+          <input id="suburb" type="text" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <div class="form-wrapper">
+            <label for="state">State</label>
+            <select id="state" name="state" class="form-control">
+              <option value="">Select your State</option>
+              <option value="wa">WA</option>
+              <option value="nt">NT</option>
+              <option value="act">ACT</option>
+              <option value="qld">QLD</option>
+              <option value="nsw">NSW</option>
+              <option value="vic">VIC</option>
+              <option value="tas">TAS</option>
+            </select>
+          </div>
+
+          <div class="form-wrapper">
+            <label for="postcode">Postcode</label> <span id="potcode-error"></span>
+            <input id="postcode" type="text" class="form-control">
+          </div>
+        </div>
+
+        <div class="form-wrapper">
+          <label for="email">Email</label>
+          <input id="email" type="password" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <div class="form-wrapper">
+            <label for="phone">Phone</label>
+            <input id="phone" type="text" class="form-control">
+          </div>
+
+          <div class="form-wrapper">
+            <label for="mob-phone">Mobile phone</label>
+            <input id="mob-phone" type="text" class="form-control">
+          </div>
+        </div>
+
+        <div class="form-wrapper">
+          <label for="password">Password</label>
+          <input id="password" type="password" class="form-control">
+        </div>
+
+        <div class="form-wrapper">
+          <label for="password-confirmation">Confirm Password</label>
+          <input  id="password-confirmation" type="password" class="form-control">
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input id="agreed" type="checkbox"> I accept the Terms of Use & Privacy Policy.
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <input type="submit" id="create_account" value="Create account"/>
+      </form>
+    </div>
+  </div>
+  <script src="../js/index.js"></script>
+ </body>
+</html>
