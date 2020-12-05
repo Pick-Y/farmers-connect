@@ -8,37 +8,71 @@
     
  </head>
  <body>
+   
   <div class="center" >
     <div class="inner">
-      <form id="form" class="center" action="/" method="GET" class='validate'>
+      <form id="form" class="center" action="/" method="GET" >
         <h3>Registration Form</h3>
-        
+
+        <!-- this div contains erros spans for COMPANY NAME and TRADING AS-->
+        <div class="error_class ">
+          <div class="form-wrapper">
+            <div><span id="company-name-error-1"></span></div>
+            <span></span>
+          </div>
+          <div class="form-wrapper">
+            <span id="trading-error"></span>
+          </div>
+        </div>
+
+         <!-- this div contains two inputs-->
         <div class="form-group">
           <div class="form-wrapper">
-            <span id="company-name-error"></span>
+            <div><span id="company-name-error-1"></span></div>
             <label for="company_name">Company Name</label>
             <input id="company_name" type="text" class="form-control" >
           </div>
-
           <div class="form-wrapper">
             <label for="trading">Trading as</label>
             <input id='trading' type="text" class="form-control">
           </div>
         </div>
 
-        
+         <!-- this div contains erros spans for CITY-->
+         <div class="error_class ">
+          <div class="form-wrapper">
+            <div><span id="city-error"></span></div>
+            <span></span>
+          </div>
+        </div>
+       
         <div class="form-wrapper">
           <label for="city">City</label>
           <input id="city" type="text" class="form-control">
         </div>
 
+
+
+        <!-- this div contains erros spans for STREET-->
+        <div class="error_class ">
+          <div class="form-wrapper">
+            <div><span id="street-error"></span></div>
+            <span></span>
+          </div>
+        </div>
         <div class="form-wrapper">
           <label for="street">Street</label>
           <input id="street" type="text" class="form-control">
         </div>  
 
-        
 
+        <!-- this div contains erros spans for SUBURB-->
+        <div class="error_class ">
+          <div class="form-wrapper">
+            <div><span id="suburb-error"></span></div>
+            <span></span>
+          </div>
+        </div>
         <div class="form-wrapper">
           <label for="suburb">Suburb</label>
           <input id="suburb" type="text" class="form-control">
