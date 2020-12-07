@@ -78,18 +78,28 @@
           <input id="suburb" type="text" class="form-control">
         </div>
 
+         <!-- this div contains erros spans for STATE and POSTCODE-->
+         <div class="error_class ">
+          <div class="form-wrapper">
+            <div><span id="state-error"></span></div>
+            <span></span>
+          </div>
+          <div class="form-wrapper">
+            <span id="postcode-error"></span>
+          </div>
+        </div>
         <div class="form-group">
           <div class="form-wrapper">
             <label for="state">State</label>
             <select id="state" name="state" class="form-control">
               <option value="">Select your State</option>
-              <option value="wa">WA</option>
-              <option value="nt">NT</option>
-              <option value="act">ACT</option>
-              <option value="qld">QLD</option>
-              <option value="nsw">NSW</option>
-              <option value="vic">VIC</option>
-              <option value="tas">TAS</option>
+              <option value="WA">WA</option>
+              <option value="NT">NT</option>
+              <option value="ACT">ACT</option>
+              <option value="QLD">QLD</option>
+              <option value="NSW">NSW</option>
+              <option value="VIC">VIC</option>
+              <option value="TAS">TAS</option>
             </select>
           </div>
 
@@ -99,31 +109,71 @@
           </div>
         </div>
 
+         <!-- this div contains erros spans for EMAIL-->
+         <div class="error_class ">
+          <div class="form-wrapper">
+            <div><span id="email-error"></span></div>
+            <span></span>
+          </div>
+        </div>
         <div class="form-wrapper">
           <label for="email">Email</label>
-          <input id="email" type="password" class="form-control">
+          <input id="email" type="email" class="form-control">
         </div>
 
+        <!-- this div contains erros spans for PHONE and MOBILE PHONE-->
+
+         <div class="error_class ">
+          <div class="form-wrapper">
+            <div><span id="phone-error"></span></div>
+            <span></span>
+          </div>
+          <div class="form-wrapper">
+            <span id="mob-phone-error"></span>
+          </div>
+        </div>
         <div class="form-group">
           <div class="form-wrapper">
             <label for="phone">Phone</label>
-            <input id="phone" type="text" class="form-control">
+            <input id="phone" type="text" class="form-control" placeholder="ex. 03 4444 4444">
           </div>
 
           <div class="form-wrapper">
             <label for="mob-phone">Mobile phone</label>
-            <input id="mob-phone" type="text" class="form-control">
+            <input id="mob-phone" type="text" class="form-control" placeholder="ex. 0406 666 666">
           </div>
         </div>
 
+        <!-- this div contains erros spans for PASSWORD-->
+        <div class="error_class ">
+          <div class="form-wrapper">
+            <div><span id="password-error"></span></div>
+            <span></span>
+          </div>
+        </div>
         <div class="form-wrapper">
           <label for="password">Password</label>
           <input id="password" type="password" class="form-control">
         </div>
 
+        <!-- this div contains erros spans for PASSWORD CONFIRMATION-->
+        <div class="error_class ">
+          <div class="form-wrapper">
+            <div><span id="confirm-password-error"></span></div>
+            <span></span>
+          </div>
+        </div>
         <div class="form-wrapper">
           <label for="password-confirmation">Confirm Password</label>
           <input  id="password-confirmation" type="password" class="form-control">
+        </div>
+
+        <!-- this div contains erros spans for AGRRED-->
+        <div class="error_class ">
+          <div class="form-wrapper">
+            <div><span id="agree-error"></span></div>
+            <span></span>
+          </div>
         </div>
 
         <div class="checkbox">
